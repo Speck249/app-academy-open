@@ -1,0 +1,35 @@
+h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff0000;
+    width: fit-content;
+    background-color: #000;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.logo {
+    margin: 1rem auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    height: 150px;
+    width: 150px;
+}
