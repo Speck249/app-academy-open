@@ -1,0 +1,47 @@
+h1 {
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 0.85rem;
+    margin: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    background-color: #000;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    color: #000;
+    background-color: red;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 0.2rem;
+    margin: 1rem;
+    color: #000;
+    background-color: #fff;
+}
+
+p em {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo {
+    margin: 1rem auto;
+    margin-top: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(AppAcademy-Logo.png);
+    background-color: red;
+    height: 80px;
+    width: 80px;
+}
