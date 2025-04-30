@@ -1,0 +1,101 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+.area {
+  text-align: center;
+}
+
+#leftbar {
+  font-size: 0.9rem;
+  width: fit-content;
+  margin-left: 1rem;
+} 
+
+#leftbar li {
+  color: #464646;
+  line-height: 1.4;
+}
+
+#center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: flex-start;
+  gap: 35px;
+  width: 700px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: yellow;
+}
+
+#center li a {
+  color: #464646;
+  font-size: 0.9rem;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+#rightbar {
+  display: inline-block;
+}
+
+#postlks {
+  padding: 0;
+}
+
+#calban a, .cal a, .leftlinks a {
+  color: #000;
+  text-decoration: none;
+}
+
+.leftlinks {
+  list-style: none;
+  padding: 0;
+}
+
+#logo a, #postlks a {
+  color: purple;
+  text-decoration: none;
+}
+
+#postlks li {
+  list-style: none;
+}
