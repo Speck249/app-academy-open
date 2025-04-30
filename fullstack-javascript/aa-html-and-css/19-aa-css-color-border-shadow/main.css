@@ -1,0 +1,70 @@
+.box1 {
+  border: blue solid 5px;
+  background-color: blueviolet;
+}
+
+.box2 {
+  border: red dotted 2px;
+  border-radius: 5px;
+  background-color: greenyellow;
+}
+
+.text1 {
+  color: #ffc300;
+  background-color: blue;
+}
+
+.text2 {
+  color: rgb(235, 62, 71);
+  background-color: burlywood;
+}
+
+.box3 {
+  background-color: rgb(230, 230, 250, 0.6);
+}
+
+h2 {
+  opacity: 0.5;
+}
+
+.box5 {
+  box-shadow: 20px 8px 15px teal;
+  background-color: lemonchiffon;
+}
+
+.box6 {
+  box-shadow: 5px 10px #800000;
+  background-color: papayawhip;
+}
+
+
+/* do not change below this line */
+
+body {
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.box4 {
+  top: 0;
+  left: 5px;
+  background-color: hotpink;
+  position: absolute;
+  z-index: -1;
+}
+
+.text {
+  width: 500px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  box-sizing: border-box;
+}
