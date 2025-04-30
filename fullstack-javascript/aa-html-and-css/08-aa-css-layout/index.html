@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./layout.css">
+        <title>HTML Form Layout</title>
+    </head>
+
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset class="form-container">
+            <legend class="form-label">add user</legend>
+        
+            <div class="first-name">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+        
+            <div class="last-name">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+        
+            <div class="user-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+        
+            
+            <div class="user-data">
+                <div class="user-role">
+                    <label for="role">Status</label>
+                    <select id="role" name="user_role_name">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                
+                <div class="form-timestamp">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+            
+            <p>Choose Your Favorite Web Language:</p>
+            <div class="favorite-stack">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+
+            <div class="user-comment">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Your feedback is appreciated!"></textarea>
+            </div>
+
+            <div class="terms-and-conditions">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label for="signup">Sign Up for Newsletter</label><br>
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label for="terms"> Agree to Terms & Conditions</label>
+            </div>
+        
+            <button type="submit">Submit</button>
+        
+            </fieldset>
+        </form>
+    </body>
+</html>
