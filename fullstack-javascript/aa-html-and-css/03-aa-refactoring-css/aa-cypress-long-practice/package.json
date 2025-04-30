@@ -1,0 +1,14 @@
+{
+  "name": "html-forms-debugging",
+  "private": true,
+  "version": "1.0.0",
+  "description": "In this practice you will be debugging the provided HTML Form.",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/integration/test.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.0"
+  }
+}
