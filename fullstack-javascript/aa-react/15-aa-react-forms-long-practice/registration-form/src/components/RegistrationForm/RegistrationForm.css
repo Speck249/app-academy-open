@@ -1,0 +1,29 @@
+input.error,
+textarea.error,
+select.error {
+  border: 1px solid red;
+  background-color: #ffe6e6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 100%;
+  padding: 1rem;
+  background-color: yellow;
+}
+
+
+
