@@ -1,3 +1,5 @@
+![AppAcademyOpen](./images/aa.svg)
+
 # App Academy Open Practice Repository
 
 Welcome to the **App Academy Open Practice Repository** — a curated collection of exercises, and projects from the [App Academy Open](https://open.appacademy.io/) curriculum. This repository documents my hands-on learning in:
