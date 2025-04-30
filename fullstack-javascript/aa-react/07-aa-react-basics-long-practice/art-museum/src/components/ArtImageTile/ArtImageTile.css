@@ -1,0 +1,13 @@
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+img {
+    width: 600px;
+    max-width: 100%;
+    padding: 1rem;
+}
